@@ -125,3 +125,6 @@ async function sendMessage(chatId, text) {
     body: JSON.stringify({ chat_id: chatId, text })
   });
 }
+
+// Export Durable Object class (Wrangler requirement)
+export { AudioConverter } from './converter.js';
