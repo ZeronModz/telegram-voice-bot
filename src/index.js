@@ -1,7 +1,7 @@
 // Telegram Voice Bot — Cloudflare Worker (Entry Point)
 // Handles incoming webhook, delegates conversion to Durable Object
 
-const TELEGRAM_TOKEN = 'YOUR_BOT_TOKEN_HERE'; // Replace with @BotFather token
+const TELEGRAM_TOKEN = '8858805223:AAGIuBHVgw-n-gxbAicZFeelsBVmS3Poz3o'; // Replace with @BotFather token
 const BASE_URL = `https://api.telegram.org/bot${TELEGRAM_TOKEN}`;
 
 export default {
